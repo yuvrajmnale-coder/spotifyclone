@@ -1,0 +1,134 @@
+/* .box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    text-align: center; */
+
+    /* animation-name: fontAnimation;
+    animation-name: colorAnimation; */
+    /* animation-name: widthAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 8;
+    animation-direction: alternate; */
+
+    /* animation: widthAnimation 3s ease-in 0s infinite normal ;
+
+}
+
+@keyframes widthAnimation {
+  from{
+    width: 10px;
+    font-size: 20px;
+    background-color: yellow;
+   }
+   to {
+    width: 400px;
+    font-size: 40px;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+   }
+} */
+
+/* @keyframes fontAnimation{
+    from{font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+    
+}
+
+@keyframes colorAnimation{
+    from{background-color: yellow;
+    }
+    to {
+        background-color: cornflowerblue;
+    }
+} */
+/* h1{ 
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    
+}
+
+@media(width: 600px) {
+    h1 {
+        background-color: blueviolet;
+        color: red;
+    }
+}
+
+@media (min-width: 700px) {
+    h1 {
+        background-color: yellowgreen;
+    }
+}
+
+@media (max-width : 200px) {
+    div{
+        background-color: chocolate;
+    }
+}
+
+@media (min-width:200px) and (max-width:300px) {
+    h1{
+        background-color: magenta;
+    }
+}
+
+@media (orientation: landscape) {
+    h1{
+        background-color: aqua;
+        color: brown;
+    }
+}*/
+
+.card{
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+img{
+    width: 100px;
+    border-radius: 25px;
+}
+
+h2{
+    color: #9d6f24;
+    /* text-align: center; */
+}
+
+span{
+    color: #d56f3e;
+}
+
+h4{
+    text-align: right;
+    counter-reset: #3c787e;
+}
+
+#pets{
+    display: inline-block;
+    width: 350px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 200px) {
+    #pets {
+        flex-wrap: wrap;
+    }
+}
+
